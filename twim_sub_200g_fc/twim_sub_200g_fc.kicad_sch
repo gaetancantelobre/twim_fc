@@ -6277,54 +6277,6 @@
 			)
 		)
 	)
-	(global_label "GNSS_1_RX"
-		(shape input)
-		(at 213.36 21.59 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "30a10092-af81-4bd8-a819-f131e5006912")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.7311 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PWM_1"
-		(shape input)
-		(at 81.28 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3b606b8f-a1d6-45d3-ac78-c89d612e9c46")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.6151 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "MISO_BARO"
 		(shape input)
 		(at 260.35 123.19 0)
@@ -6469,6 +6421,30 @@
 			)
 		)
 	)
+	(global_label "GNSS_2_RX"
+		(shape input)
+		(at 81.28 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69eb5b21-9a98-4631-8d37-06b55ee4a868")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.9089 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "CS_IMU"
 		(shape input)
 		(at 236.22 71.12 180)
@@ -6490,54 +6466,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "GNSS_2_RX"
-		(shape input)
-		(at 81.28 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6e5b64cf-e1fe-4ee5-b086-17eda4209072")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.9089 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GNSS_1_TX"
-		(shape input)
-		(at 81.28 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6ebdfe39-6a28-4459-a531-e0aaaebfee8f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.6065 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -6626,54 +6554,6 @@
 		(uuid "79ed3dde-42d7-4b80-9315-0f406ca709be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 178.0805 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GNSS_1_TX"
-		(shape input)
-		(at 213.36 24.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7d78f7c7-27c8-4b2d-bebf-290d26b167c2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.0335 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PWM_4"
-		(shape input)
-		(at 45.72 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "88998c8b-35f6-484d-9ec9-d50c647a5b46")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.3849 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6855,7 +6735,7 @@
 	)
 	(global_label "GNSS_2_TX"
 		(shape input)
-		(at 81.28 113.03 0)
+		(at 81.28 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6863,9 +6743,9 @@
 			)
 			(justify left)
 		)
-		(uuid "a8320c03-c493-4444-9f1e-61e99150610e")
+		(uuid "a7b3a601-15ca-40c0-9eac-7e2bea32d518")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.6065 113.03 0)
+			(at 94.6065 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7021,30 +6901,6 @@
 			)
 		)
 	)
-	(global_label "GNSS_1_RX"
-		(shape input)
-		(at 81.28 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bf3e6982-46fd-4560-8d3a-d30f4f40c439")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.9089 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "CS_BARO"
 		(shape input)
 		(at 260.35 128.27 0)
@@ -7117,30 +6973,6 @@
 			)
 		)
 	)
-	(global_label "PWM_2"
-		(shape input)
-		(at 81.28 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c8e850e5-a2b7-4cb8-a831-890ecbaaedeb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.6151 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "SWDCLK"
 		(shape input)
 		(at 238.76 25.4 180)
@@ -7191,7 +7023,7 @@
 	)
 	(global_label "GNSS_2_TX"
 		(shape input)
-		(at 187.96 22.86 180)
+		(at 213.36 21.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7201,7 +7033,7 @@
 		)
 		(uuid "d79c434a-3587-4ee8-b85f-149bc6b491b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.6335 22.86 0)
+			(at 200.0335 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7210,6 +7042,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "PWM_1"
+		(shape input)
+		(at 81.28 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d86cd7bb-409a-4916-85f4-423625f6d54a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.6151 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -7226,30 +7082,6 @@
 		(uuid "d8c93949-bb09-4dfa-9625-9aea1ec7f906")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 229.9086 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PWM_4"
-		(shape input)
-		(at 86.36 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d8d48380-644f-4139-bd8e-ba37ce358830")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.0249 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7285,9 +7117,33 @@
 			)
 		)
 	)
+	(global_label "PWM_2"
+		(shape input)
+		(at 81.28 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df4f4a5e-8993-4262-a2c2-0292ed772e38")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.6151 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GNSS_2_RX"
 		(shape input)
-		(at 187.96 25.4 180)
+		(at 213.36 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7297,7 +7153,7 @@
 		)
 		(uuid "e1cd0e08-7bda-48d6-aab8-26ec2cff4e96")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.3311 25.4 0)
+			(at 199.7311 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8317,94 +8173,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 218.44 24.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16e3558d-c534-47a4-b8bb-ce75ecbca0ab")
-		(property "Reference" "J1"
-			(at 219.71 24.1299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GNSS_1"
-			(at 219.71 26.6699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "smd_pads:01x04_smd_pad_1.2mm"
-			(at 218.44 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 218.44 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "68ac09ac-de61-4145-9862-2a8bc8a832da")
-		)
-		(pin "4"
-			(uuid "0fef0398-38c3-4664-b11e-a9ff5a403dec")
-		)
-		(pin "2"
-			(uuid "2d5f29f4-86af-4d68-8bc2-8d2c939eb72d")
-		)
-		(pin "1"
-			(uuid "7b0b94fb-b8bd-4b7e-9b3a-a998d5f619ac")
-		)
-		(instances
-			(project "twim_sub_200g_fc"
-				(path "/f9a4532e-fdf6-44d0-bf77-b30537525897"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 105.41 181.61 180)
 		(unit 1)
@@ -8561,85 +8329,6 @@
 			(project "twim_sub_200g_fc"
 				(path "/f9a4532e-fdf6-44d0-bf77-b30537525897"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 213.36 26.67 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "278c17d7-ad44-4c7f-95bf-308de7fa389b")
-		(property "Reference" "#PWR9"
-			(at 217.17 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 209.55 26.6699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 213.36 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a9c06999-6a5c-4ad7-ad85-2ba9c86e85cd")
-		)
-		(instances
-			(project "twim_sub_200g_fc"
-				(path "/f9a4532e-fdf6-44d0-bf77-b30537525897"
-					(reference "#PWR9")
 					(unit 1)
 				)
 			)
@@ -9757,83 +9446,6 @@
 			(project "twim_sub_200g_fc"
 				(path "/f9a4532e-fdf6-44d0-bf77-b30537525897"
 					(reference "#PWR17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 213.36 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4d4457f2-c580-4b35-95d0-68d59618f07a")
-		(property "Reference" "#PWR10"
-			(at 213.36 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 216.916 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5956b8e2-48a7-4d0b-a572-03ce127454d5")
-		)
-		(instances
-			(project "twim_sub_200g_fc"
-				(path "/f9a4532e-fdf6-44d0-bf77-b30537525897"
-					(reference "#PWR10")
 					(unit 1)
 				)
 			)
@@ -11708,83 +11320,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 86.36 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "801b66f7-d108-4ca2-a33c-3d8a8e639866")
-		(property "Reference" "#PWR7"
-			(at 86.36 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 89.916 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "716fc304-35da-475e-a079-54dc42b76c98")
-		)
-		(instances
-			(project "twim_sub_200g_fc"
-				(path "/f9a4532e-fdf6-44d0-bf77-b30537525897"
-					(reference "#PWR7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 142.24 116.84 0)
 		(unit 1)
@@ -12491,7 +12026,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 193.04 25.4 0)
+		(at 218.44 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12502,7 +12037,7 @@
 		(fields_autoplaced yes)
 		(uuid "a46edd58-07a3-44c6-8738-adb7f63b2f1d")
 		(property "Reference" "J2"
-			(at 194.31 25.3999 0)
+			(at 219.71 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12513,7 +12048,7 @@
 			)
 		)
 		(property "Value" "GNSS_2"
-			(at 194.31 27.9399 0)
+			(at 219.71 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12524,7 +12059,7 @@
 			)
 		)
 		(property "Footprint" "smd_pads:01x04_smd_pad_1.2mm"
-			(at 193.04 25.4 0)
+			(at 218.44 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12535,7 +12070,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 25.4 0)
+			(at 218.44 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12546,7 +12081,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 193.04 25.4 0)
+			(at 218.44 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13137,85 +12672,6 @@
 			(project "twim_sub_200g_fc"
 				(path "/f9a4532e-fdf6-44d0-bf77-b30537525897"
 					(reference "#PWR23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 86.36 74.93 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb465ad7-531f-47d6-8835-a0e3de14bd08")
-		(property "Reference" "#PWR8"
-			(at 90.17 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 82.55 74.9299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 86.36 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eace29ae-5cb0-4e59-a8fe-7ea223dd6a6c")
-		)
-		(instances
-			(project "twim_sub_200g_fc"
-				(path "/f9a4532e-fdf6-44d0-bf77-b30537525897"
-					(reference "#PWR8")
 					(unit 1)
 				)
 			)
@@ -14121,7 +13577,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 187.96 27.94 90)
+		(at 213.36 26.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14132,7 +13588,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9d938a6-b170-4ee9-9c1c-949642664beb")
 		(property "Reference" "#PWR11"
-			(at 191.77 27.94 0)
+			(at 217.17 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14143,7 +13599,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 184.15 27.9399 90)
+			(at 209.55 26.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14154,7 +13610,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 27.94 0)
+			(at 213.36 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14165,7 +13621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 27.94 0)
+			(at 213.36 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14176,7 +13632,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 187.96 27.94 0)
+			(at 213.36 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14606,7 +14062,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 30.48 0)
+		(at 213.36 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14616,7 +14072,7 @@
 		(dnp no)
 		(uuid "e83715a8-5741-4296-8e1b-a4b1760dc300")
 		(property "Reference" "#PWR12"
-			(at 187.96 36.83 0)
+			(at 213.36 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14627,7 +14083,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.516 33.02 0)
+			(at 216.916 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14637,7 +14093,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 30.48 0)
+			(at 213.36 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14648,7 +14104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 30.48 0)
+			(at 213.36 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14659,7 +14115,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 30.48 0)
+			(at 213.36 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14916,91 +14372,6 @@
 			(project "twim_sub_200g_fc"
 				(path "/f9a4532e-fdf6-44d0-bf77-b30537525897"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Motor_Servo")
-		(at 93.98 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee9a6013-eecb-4bac-ae48-91b7f531ee15")
-		(property "Reference" "M4"
-			(at 102.87 73.2265 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Motor_Servo"
-			(at 102.87 75.7665 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 93.98 79.756 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
-			(at 93.98 79.756 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
-			(at 93.98 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a6287459-677b-4041-bc61-9542ec40a2c2")
-		)
-		(pin "2"
-			(uuid "09da03a5-24f1-43a6-922a-94c54eb066f9")
-		)
-		(pin "3"
-			(uuid "b9d9207b-3a7c-472c-816d-bb636c034065")
-		)
-		(instances
-			(project "twim_sub_200g_fc"
-				(path "/f9a4532e-fdf6-44d0-bf77-b30537525897"
-					(reference "M4")
 					(unit 1)
 				)
 			)
