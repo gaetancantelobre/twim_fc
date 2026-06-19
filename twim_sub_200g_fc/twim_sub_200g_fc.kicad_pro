@@ -506,7 +506,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.125,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -658,7 +658,7 @@
         "uuid": "f9a4532e-fdf6-44d0-bf77-b30537525897"
       }
     ],
-    "used_designators": "Q2,U2,#PWR20-23",
+    "used_designators": "#PWR11-12,#PWR26,#PWR28,#PWR40,#PWR54-58,J1,C16-21",
     "variants": []
   },
   "sheets": [
