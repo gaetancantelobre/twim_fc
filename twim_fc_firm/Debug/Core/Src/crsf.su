@@ -1,0 +1,4 @@
+../Core/Src/crsf.c:13:16:crc8_calc	24	static
+../Core/Src/crsf.c:25:13:crsf_unpack_channels	16	static
+../Core/Src/crsf.c:48:6:crsf_init	16	static
+../Core/Src/crsf.c:52:6:crsf_parse_byte	16	static

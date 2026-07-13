@@ -11830,6 +11830,7 @@
 		)
 		(pin "33"
 			(uuid "3d5ba065-56ce-489d-8137-b7f6daa64668")
+			(alternate "USB_DM")
 		)
 		(pin "44"
 			(uuid "58e5aceb-7406-495f-97c9-0ea5b7384b0b")
@@ -11938,6 +11939,7 @@
 		)
 		(pin "34"
 			(uuid "4cf064f8-187f-4dd0-a3f9-7699575f44c1")
+			(alternate "USB_DP")
 		)
 		(pin "3"
 			(uuid "62fd84e6-653a-493a-97aa-22af2d287455")
